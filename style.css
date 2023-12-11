@@ -1,0 +1,26 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#asciiContainer {
+  line-height: 1;
+  letter-spacing: 0;
+  white-space: nowrap;
+  font-family: "monospace";
+}
+
+
+#asciiContainer {
+    font-family: 'Courier New', monospace; /* Use a monospace font for even spacing */
+    white-space: pre; /* This ensures that whitespace is preserved and lines do not wrap */
+  }
+  
+  #asciiContainer span {
+    display: inline-block;
+    width: 8px; /* Set a fixed width for each character */
+  }
